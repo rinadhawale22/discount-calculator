@@ -1,0 +1,72 @@
+body {
+    font-family: 'Itim', cursive;
+    background-color: #f2f2f2;
+    color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: cadetblue;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 10px;
+}
+
+p {
+    color: cadetblue;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(95, 160, 118);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: x-large;
+    
+}
+
+button:hover {
+    background: burlywood;
+}
+
+output {
+    font-weight: bold;
+    color: cadetblue;
+    font-size: x-large;
+}
